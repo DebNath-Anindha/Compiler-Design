@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1613570631 source:d:\codeblocks files\lab1 cd\main.cpp
+	<bits/stdc++.h>
+
+1613570631 source:d:\others\codeblocks files\lab1 cd\main.cpp
+	<bits/stdc++.h>
+
+1614238854 source:d:\codeblocks files\parenthesize\main.cpp
+	<iostream>
+	<string.h>
+
+1614238995 source:d:\compiler design lab code (mid term)\parenthesize\main.cpp
+	<bits/stdc++.h>
+

@@ -1,0 +1,61 @@
+#include <iostream>
+#include<string.h>
+
+using namespace std;
+
+int main()
+{
+    int i,l,br=0;
+    string input ;
+    cout << "Enter the equation "<< endl;
+    getline (cin,input);
+    l= input.length();
+
+
+
+    for (i =0; i<l ; i++)
+    {
+
+        if (input[i] == '(')
+        {
+
+            br++;
+        }
+        else if (input [i] == ')')
+        {
+             br--;
+
+        }
+        else
+             if(input[i]=='*'||input[i]=='/'||input[i]=='+'||input[i]=='-')
+        {
+            if(input[i-1]>96&&input[i-1]<123&&input[i+1]>96&&input[i+1]<123)
+            {
+                continue;
+            }
+            else
+            break;
+        }
+    }
+
+
+
+
+
+
+    if (i==l && br==0)
+    {
+
+    cout<<"paranthasized"<<endl;
+
+    }
+    else
+    {
+
+    cout<< "not praranthasized"<<endl;
+    }
+
+
+    return 0;
+
+}
